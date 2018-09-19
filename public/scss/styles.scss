@@ -18,7 +18,7 @@ html {
 body {
   font-family: Montserrat;
   font-size: 1.6rem;
-  user-select: none; 
+  user-select: text; 
 }
 
 .pre {
@@ -128,7 +128,6 @@ body {
     width: 100%;
   }
   &__details {
-    user-select: text;
     h1 {
       font-weight: 800;
       font-size: 3rem;
