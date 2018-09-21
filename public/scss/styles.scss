@@ -1,5 +1,5 @@
 // Vars
-// Browser Reconfig
+// Browser Reconfigure
 * {
   margin: 0;
   padding: 0;
@@ -148,11 +148,8 @@ body {
       .fa {
         animation-name: downScale;
         animation-duration: .8s;
-        transition: all .2s;
+        transition: all .5s;
         animation-fill-mode: both;
-        &:hover {
-          transform: scale(1.10);
-        }
       }      
       .fa-facebook-square {
         animation-delay: 0s;
@@ -169,6 +166,10 @@ body {
       .fa-twitter {
         animation-delay: .9s;
         &:hover {color: #1da1f2;}
+      }
+      .fa-codepen {
+        animation-delay: 1.2s;
+        &:hover {color: #ae63e4;}
       }
     }
     
