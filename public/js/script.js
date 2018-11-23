@@ -35,7 +35,7 @@ async function typeItThere(container, text, duration) {
   const myInfoContainer = document.querySelector("#my-info");
   const myInfoArray = [
     "Full-Stack Web Developer",
-    "Computer Sci. Student at PUCIT"
+    "Computer Sci. Student at UET KSK"
   ];
   while (true) {
     for (const myInfoString of myInfoArray) {
